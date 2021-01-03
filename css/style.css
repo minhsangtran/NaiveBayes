@@ -1,0 +1,51 @@
+.main{
+    text-align: center;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    margin-left: 10%;
+    width: 80%;
+}
+#slc_api{
+    height: 30px;
+    border: #b5b3b3 solid 1px;
+    border-radius: 5px;
+}
+#btn_call{
+    background: #e6e6e6;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+#btn_call:focus{
+    outline:none;
+}
+#div_request, #div_response{
+}
+.main_contents{
+	min-height: 200px;
+    text-align: left;
+    border: 1px solid #9a9a9a;
+    padding: 10px;
+    margin: 10px;
+}
+.main_contents_header{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+div#div_parameters {
+    overflow: scroll;
+}
+
+textarea#txt_parameters {
+    width: 99.5%;
+    height: 250px;
+}
+
+.red_match {
+    background: red;
+    width: 100px;
+}
